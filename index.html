@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="tailwind.js"></script>
+</head>
+<body class="bg-gradient-to-l from-gray-800 to-gray-900 text-stone-100">
+    <div class="block" id="app">
+        <div class="block">
+            <h1 class="text-5xl font-bold text-center my-[3rem]">Versus KKSAK</h1>
+        </div>
+        <div class="block px-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto">
+                <div v-for="item in jugadores" :key="item.id">
+                    <v-jugador :player="item" :players="jugadores"></v-jugador>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vue-v2.js"></script>
+    <script type="text/javascript" src="components.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
