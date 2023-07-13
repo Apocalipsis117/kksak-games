@@ -43,7 +43,7 @@ Vue.component('v-jugador', {
             <img :src="img" class="w-[135px] h-[135px] rounded-full object-cover shadow-lg shadow-cyan-500/20 border-4 border-sky-900 p-2 mb-4" alt="">
             <div class="bg-gray-800 p-3 block rounded-lg">
                 <div class="text-green-500 text-xl"><b>win</b> {{ win }}</div>
-                <div class="text-red-500 text-xl"><b>loser</b> {{ loser }}</div>
+                <div class="text-red-500 text-xl"><b>loser</b> {{ loser.length }}</div>
             </div>
             <div class="relative">
                 <img :src="'assets/' + porcentwin.img" class="w-[145px] my-4 rounded-xl">
@@ -81,7 +81,13 @@ Vue.component('v-jugador', {
             return this.player.win.length;
         },
         loser(){
-            return this.player.loser.length;
+            let loser = [];
+            this.players.forEach(x => {
+                if(x.win.some(w => w === this.player.id)) {
+                    loser.push(x)
+                };
+            })
+            return loser;
         },
         img(){
             return this.player.img != '' ? `assets/${this.player.img}` : 'http://localhost/multimedia/relleno/img-c5.png'
@@ -135,7 +141,7 @@ Vue.component('v-jugador', {
             if(this.player.win.some(x => x === item.id)) {
                 queso = 'bg-green-900'
             }
-            if(this.player.loser.some(x => x === item.id)) {
+            if(this.loser.find(x => x.id === item.id)) {
                 queso = 'bg-red-900'
             }
             return queso
