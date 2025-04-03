@@ -69,6 +69,12 @@ new Vue({
                 img: 'malzahar.jpg',
                 win: [],
             },
+            {
+                id: 12,
+                name: 'delicaso',
+                img: 'caitlyn.jpg',
+                win: [],
+            },
         ]
     }
 })
