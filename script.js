@@ -71,7 +71,7 @@ new Vue({
             },
             {
                 id: 12,
-                name: 'delicaso',
+                name: 'Delicado',
                 img: 'caitlyn.jpg',
                 win: [],
             },
