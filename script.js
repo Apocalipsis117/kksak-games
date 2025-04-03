@@ -7,13 +7,13 @@ new Vue({
                 id: 0,
                 name: 'Apocalipsis',
                 img: 'kata.jpg',
-                win: [4],
+                win: [],
             },
             {
                 id: 1,
                 name: 'Crow117',
                 img: 'diana.jpg',
-                win: [0,3],
+                win: [],
             },
             {
                 id: 2,
@@ -25,13 +25,13 @@ new Vue({
                 id: 8,
                 name: 'Rock Style',
                 img: 'nautilus.jpg',
-                win: [0],
+                win: [],
             },
             {
                 id: 3,
                 name: 'TheKrash',
                 img: 'kayn.jpg',
-                win: [0],
+                win: [],
             },
             {
                 id: 4,
@@ -61,7 +61,7 @@ new Vue({
                 id: 9,
                 name: 'Kassike',
                 img: 'yasuo.jpg',
-                win: [7,0,5],
+                win: [],
             },
             {
                 id: 10,
