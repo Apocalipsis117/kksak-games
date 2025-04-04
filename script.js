@@ -1,3 +1,18 @@
+/*
+Apocalipsis: 0,
+Crow117: 1,
+Decapitador: 2,
+Rock Style: 8,
+TheKrash: 3,
+Osca Guette: 4,
+Blackcore: 5,
+El intrepido: 6,
+Mfatality: 7,
+Kassike: 9,
+Ralphi: 10,
+Delicado: 12,
+ */
+
 new Vue({
     el: '#app',
     data: {
@@ -13,7 +28,7 @@ new Vue({
                 id: 1,
                 name: 'Crow117',
                 img: 'diana.jpg',
-                win: [],
+                win: [8],
             },
             {
                 id: 2,
