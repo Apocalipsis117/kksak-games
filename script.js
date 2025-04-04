@@ -28,7 +28,7 @@ new Vue({
                 id: 1,
                 name: 'Crow117',
                 img: 'diana.jpg',
-                win: [8,0],
+                win: [8,0,10],
             },
             {
                 id: 2,
@@ -52,7 +52,7 @@ new Vue({
                 id: 4,
                 name: 'Osca Guette',
                 img: 'jhin.jpg',
-                win: [1,0,13],
+                win: [1,0,13,10],
             },
             {
                 id: 5,
