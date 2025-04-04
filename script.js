@@ -88,7 +88,7 @@ new Vue({
                 id: 12,
                 name: 'Delicado',
                 img: 'caitlyn.jpg',
-                win: [],
+                win: [1,0],
             },
         ]
     }
