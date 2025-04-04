@@ -82,13 +82,13 @@ new Vue({
                 id: 10,
                 name: 'Ralphi',
                 img: 'malzahar.jpg',
-                win: [],
+                win: [0],
             },
             {
                 id: 12,
                 name: 'Delicado',
                 img: 'caitlyn.jpg',
-                win: [1,0,4],
+                win: [1,0,4,10],
             },
             {
                 id: 13,
