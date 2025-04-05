@@ -22,13 +22,13 @@ new Vue({
                 id: 0,
                 name: 'Apocalipsis',
                 img: 'kata.jpg',
-                win: [],
+                win: [7],
             },
             {
                 id: 1,
                 name: 'Crow117',
                 img: 'diana.jpg',
-                win: [8,0,10],
+                win: [8,0,10,7],
             },
             {
                 id: 2,
@@ -70,7 +70,7 @@ new Vue({
                 id: 7,
                 name: 'Mfatality',
                 img: 'teemo.jpg',
-                win: [],
+                win: [4],
             },
             {
                 id: 9,
