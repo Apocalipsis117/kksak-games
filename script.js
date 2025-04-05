@@ -22,7 +22,7 @@ new Vue({
                 id: 0,
                 name: 'Apocalipsis',
                 img: 'kata.jpg',
-                win: [7],
+                win: [7,3],
             },
             {
                 id: 1,
@@ -60,24 +60,24 @@ new Vue({
                 img: 'vex.jpg',
                 win: [],
             },
-            {
+            /*{
                 id: 6,
                 name: 'El intrepido',
                 img: 'vi.jpg',
                 win: [],
-            },
+            },*/
             {
                 id: 7,
                 name: 'Mfatality',
                 img: 'teemo.jpg',
                 win: [4],
             },
-            {
+            /*{
                 id: 9,
                 name: 'Kassike',
                 img: 'yasuo.jpg',
                 win: [],
-            },
+            },*/
             {
                 id: 10,
                 name: 'Ralphi',
